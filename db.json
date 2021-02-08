@@ -1,0 +1,42 @@
+{
+  "combattant": [
+    {
+      "id": 1,
+      "nom": "little mac",
+      "attaque": "uppercut"
+    },
+    {
+      "id": 2,
+      "nom": "ganondorf",
+      "attaque": "poing du Sorcier"
+    }
+  ],
+  "terrain": [
+    {
+      "id": 1,
+      "nom": "ring de boxe"
+    },
+    {
+      "id": 2,
+      "nom": "donjon"
+    }
+  ],
+  "match": [
+    {
+      "id": 1,
+      "combattant1Id" : 1,
+      "combattant2Id" : 2, 
+      "vainqueur": "ganondorf",
+      "perdant": "little mac",
+      "terrainId": 2
+    },
+    {
+      "id": 2,
+      "combattant1Id" : 1,
+      "combattant2Id" : 2, 
+      "vainqueur": "little mac",
+      "perdant": "ganondorf",
+      "terrainId": 1
+    }
+  ]
+}

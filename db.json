@@ -1,5 +1,5 @@
 {
-  "combattant": [
+  "combattants": [
     {
       "id": 1,
       "nom": "little mac",
@@ -16,7 +16,7 @@
       "id": 3
     }
   ],
-  "terrain": [
+  "terrains": [
     {
       "id": 1,
       "nom": "ring de boxe"
@@ -34,7 +34,7 @@
       "id": 4
     }
   ],
-  "match": [
+  "matchs": [
     {
       "id": 1,
       "combattant1Id": 1,
